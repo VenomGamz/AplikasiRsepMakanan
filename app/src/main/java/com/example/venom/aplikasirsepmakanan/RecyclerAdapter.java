@@ -18,10 +18,15 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
 
     private final Context context;
 
-    String [] name={"Leker","Omlete","Seblak","Sempolan","Steak BlackPapper"};
-    String [] deskripsi={"Lekersdasd","Omleteasdasd","Seblakasdasd","Sempolanasdasd","Steak BlackPapperasdasd"};
+    String [] name={"Leker","Omlete","Seblak","Sempolan","Steak BlackPapper","jamurtiram"};
+    String [] deskripsi={"Crepes adalah jenis roti yang sangat tipis, biasanya terbuat dari tepung terigu. Asal mula kata Crepe adalah dari Perancis dengan sebutan crispa, yang berarti meringkuk.  Sedangkan Crepes berasal dari bahasa Inggris. Crepes sudah terkenal di seluruh benua Eropa dan kini mulai merambah ke seluruh dunia.Crepes merupakan jajanan ringan yang berisi berbagai varian topping.",
+            "Siapa yang tak kenal dengan omelet telur? Ya, hidangan yang biasanya dijadikan sebagai menu sarapan diberbagai belahan dunia barat ini sudah mulai terkenal di Indonesia dan kian menjadi trend terbaru yang juga dijadikan menu makanan dipagi hari.",
+            "Resep Seblak Basah Pedas Jajanan Bandung Sederhana Spesial Asli Enak Banget. Seblak adalah kerupuk mentah yang sengaja dibantatkan dengan cara direndam air panas. Cemilan ini sedang populer di sunda Jawa Barat di kota Bandung, Cimahi, Soreang, Cileunyi kemudian menyebar ke kota Bogor, Jakarta, Denpasar Bali, Surabaya, dan kota lainnya di seluruh Indonesia.",
+            "Sempolan adalah merupakan salah satu jajanan tradisional murah meriah namun mempunyai rasa yang enak dan gurih. Jajanan sempolan ini enak banget dimakan pada saat musim hujan dan masih anget-angetnya",
+            "Penggemar steak,pasti sudah tidak asing lagi dengan sirloin atau tenderloin steak.Mana yang paling anda suka ? Sirloin ataupun tenderloin, jika anda penggemar daging yang berada pada bagian belakang sebelum kaki belakang ini, anda dapat mengenali pemilihan sirloin yaitu sirloin atas,top sirloin ataupun bottom sirloin .",
+              "Hanya dengan 5 ons jamur tiram di tambah dengan bumbu-bumbu pilihan lalu di tumis di dalam api sedang dengan sedikit minyak zaitun anda bisa menikmati hidangan yang satu ini."};
     // menampilkan list item dalam bentuk text dengan tipe data string dengan variable name
-    Integer [] gambar={R.drawable.lekercepres,R.drawable.omlettelor,R.drawable.seblak,R.drawable.sempolan,R.drawable.steakblackpaper};
+    Integer [] gambar={R.drawable.lekercepres,R.drawable.omlettelor,R.drawable.seblak,R.drawable.sempolan,R.drawable.steakblackpaper,R.drawable.jamurtiram};
     LayoutInflater inflater;
     public RecyclerAdapter(Context context) {
         this.context=context;
@@ -40,7 +45,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerViewHolder> {
 
         holder.tv1.setText(name[position]);
         holder.tv1.setOnClickListener(clickListener);
-        holder.tv2.setText(name[position]);
+        holder.tv2.setText(deskripsi[position]);
         holder.tv2.setOnClickListener(clickListener);
 
         holder.imageView.setOnClickListener(clickListener);

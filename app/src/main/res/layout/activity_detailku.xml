@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -32,10 +37,16 @@
 
 
 
-        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat."
+        android:text="•	125 gram Kerupuk aci kuning/putih (Kerupuk yang biasa di pakai untuk nasi uduk atau nasi goreng)\n
+•	air panas buat merendam kerupuk aci\n
+•	50 ml air\n
+•	1 butir telur, kocok lepas\n
+•	1/2 batang sosis, potong sesuai selera\n
+•	1 butir bakso, potong sesuai selera\n
+•	1/2 sdt kaldu ayam bubuk\n
+•	1/2 batang daun bawang, diiris halus (opsional tergantung selera)\n
+•	2 sendok makan minyak untuk menumis bumbu halus\n
+"
         />
 
 
@@ -57,11 +68,14 @@ consequat."
 
 
 
-        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        android:text="1.	Rebus air, lalu masukkan kerupuk mendidih. Tunggu hingga mendidih lalu saring atau tiriskan.\n
+2.	Masukkan kerupuk ke dalam air dingin.\n
+3.	Haluskan cabe, bawang merah, kencur dan bawang putih lalu tumis hingga harum.\n
+4.	Tambahkan air setengah gelas, lalu tambahkan gula pasir, air asam jawa, garam, sosis dan bakso\n
+5.	Lalu tambahkan kerupuk, aduk rata.\n
+6.	Masak hingga bumbu meresap, lalu tambahkan kocokan telur.\n
+7.	Aduk rata dan sajikan.\n
+8.	Sajikan Seblak Basah panas untuk 1-2 porsi\n"
         />
 </LinearLayout>
+</ScrollView>
